@@ -1,0 +1,7 @@
+numpy
+torch
+transformers
+faiss-cpu
+psycopg2-binary
+pdfplumber
+docx2txt

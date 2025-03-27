@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: job_search
+Version: 1.0.0
+Summary: Job search system using FAISS and BERT embeddings
+Author: Your Name
+Author-email: your.email@example.com
+Keywords: job search,faiss,bert,embeddings
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: faiss-cpu
+Requires-Dist: psycopg2-binary
+Requires-Dist: pdfplumber
+Requires-Dist: docx2txt
