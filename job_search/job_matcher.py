@@ -137,9 +137,11 @@ def get_job_details(job_ids):
             "company_name": "company",  # Alternative name
             "description": "description",
             "job_description": "description",  # Alternative name
-            "location": "location",
+            "location_short": "location_short",
+            "location_long": "location_long",
             "salary_range": "salary_range",
-            "job_type": "job_type"
+            "job_type": "job_type",
+            "url": "url",
         }
         
         for db_col, result_col in column_mapping.items():

@@ -67,7 +67,7 @@ def create_job_embeddings():
         # Fetch job descriptions that need embeddings
         cursor.execute("""
             SELECT job_id, description FROM job_postings 
-            WHERE description IS NOT NULL AND (embedding IS NULL OR array_length(embedding, 1) IS NULL);
+            WHERE description IS NOT NULL AND embedding IS NULL;
         """)
         jobs = cursor.fetchall()
         
